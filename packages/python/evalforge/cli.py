@@ -4,7 +4,7 @@ import json
 import sys
 import click
 from .datasets import load
-from .runner import run_eval, compare
+from .runner import run_eval
 from .scorers import ExactMatchScorer, RougeScorer, RegexScorer, LLMJudgeScorer
 
 
