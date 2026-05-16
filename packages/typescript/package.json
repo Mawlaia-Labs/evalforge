@@ -1,10 +1,12 @@
 {
-  "name": "@mawlaia/evalforge",
+  "name": "mawlaia-evalforge",
   "version": "0.1.0",
   "description": "Eval runner for LLM applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -15,8 +17,12 @@
     "@anthropic-ai/sdk": ">=0.25.0"
   },
   "peerDependenciesMeta": {
-    "openai": { "optional": true },
-    "@anthropic-ai/sdk": { "optional": true }
+    "openai": {
+      "optional": true
+    },
+    "@anthropic-ai/sdk": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
@@ -30,15 +36,13 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
-    "roots": ["<rootDir>/tests"]
+    "roots": [
+      "<rootDir>/tests"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Mawlaia-Labs/evalforge"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT"
 }
