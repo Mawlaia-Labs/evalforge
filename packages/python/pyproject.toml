@@ -3,7 +3,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "evalforge"
+name = "mawlaia-evalforge"
 version = "0.1.0"
 description = "Eval runner for LLM applications"
 authors = ["Mawlaia <dev@mawlaia.com>"]
