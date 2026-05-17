@@ -4,6 +4,7 @@ from .rouge      import RougeScorer
 from .semantic   import SemanticScorer
 from .llm_judge  import LLMJudgeScorer
 from .custom     import CustomScorer
+from .hosted     import HostedScorer
 from .base       import Scorer
 
 __all__ = [
@@ -14,4 +15,5 @@ __all__ = [
     "SemanticScorer",
     "LLMJudgeScorer",
     "CustomScorer",
+    "HostedScorer",
 ]
