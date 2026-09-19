@@ -40,6 +40,10 @@ report.assert_pass(threshold=0.85)  # fails CI if score drops below 85%
 - [ ] Hosted control plane ([mawlaia.com](https://mawlaia.com))
 - [ ] Vertical eval packs
 
+## Contributors
+
+- [Adnan Ghribi](https://github.com/aghribi)
+
 ## License
 
 MIT
